@@ -1,0 +1,225 @@
+body{
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: Andale Mono, monospace;
+}
+
+
+
+/*** Navigation Bar ***/
+.navBar {
+  background-color: white;
+  z-index: 2;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* styling the links */
+.navBar a:not(:first-child) {
+  color: black;
+  text-decoration: none;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 17px;
+}
+
+#logo{
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+/* Hover attributes except shLogo (first-child) */
+.navBar a:not(:first-child):hover {
+  background-color: #253144;
+  color: white;
+} /*** End of Navigation bar ***/
+
+
+
+.portfolio2 {
+  text-align: center;
+}
+
+.portfolio2 a{
+  text-decoration: none;
+}
+
+.portfolioSquare {
+  transition: 0.8s ease;
+  margin: 10% auto;
+  padding-top: 28%;
+  background-size: contain;
+  height: 250px;
+  width: 250px;
+  /* display: table; */
+}
+
+.portfolioTitle {
+  transition: 0.8s ease;
+  background-color: black;
+  opacity: 0;
+  color: white;
+  padding: 3%;
+  /* display: table-cell;
+  vertical-align: middle; */
+}
+
+/* .portfolioSquare h1 {
+  opacity: 1;
+  color: white;
+} */
+
+.portfolioSquare:hover .portfolioTitle{
+  opacity: 0.7;
+}
+
+
+#rifleSquare {
+  background-image: url(img/portfolioSquare/rifleSquareBW.jpg);
+}
+
+#rifleSquare:hover {
+  background-image: url(img/portfolioSquare/rifleSquare.jpg);
+}
+
+#designSquare {
+  background-image: url(img/portfolioSquare/designSquareBW.jpg);
+}
+
+#designSquare:hover {
+  background-image: url(img/portfolioSquare/designSquare.jpg);
+}
+
+#musicSquare {
+  background-image: url(img/portfolioSquare/musicSquareBW.jpg);
+}
+
+#musicSquare:hover {
+  background-image: url(img/portfolioSquare/musicSquare.jpg);
+}
+
+#researchSquare {
+  background-image: url(img/portfolioSquare/researchSquareBW.jpg);
+}
+
+#researchSquare:hover {
+  background-image: url(img/portfolioSquare/researchSquare.jpg);
+}
+
+#weldingSquare {
+  background-image: url(img/portfolioSquare/weldingSquareBW.jpg);
+}
+
+#weldingSquare:hover {
+  background-image: url(img/portfolioSquare/weldingSquare.jpg);
+}
+
+#roboticsSquare {
+  background-image: url(img/portfolioSquare/roboticsSquareBW.jpg);
+}
+
+#roboticsSquare:hover {
+  background-image: url(img/portfolioSquare/roboticsSquare.jpg);
+}
+
+#awardSquare {
+  background-image: url(img/portfolioSquare/awardSquareBW.jpg);
+}
+
+#awardSquare:hover {
+  background-image: url(img/portfolioSquare/awardSquare.jpg);
+}
+
+#ghpSquare {
+  background-image: url(img/portfolioSquare/ghpSquareBW.jpg);
+}
+
+#ghpSquare:hover {
+  background-image: url(img/portfolioSquare/ghpSquare.jpg);
+}
+
+#efSquare {
+  background-image: url(img/portfolioSquare/efSquareBW.jpg);
+}
+
+#efSquare:hover {
+  background-image: url(img/portfolioSquare/efSquare.jpg);
+}
+
+/***------------------------ rifle.html Portfolio Tab ------------------------***/
+.rifle {
+  background-image: url(img/rifle/teampic2.jpeg);
+  height: 90vh;
+  max-width: 100%;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+
+/***------------------------ ef2018.html Portfolio Tab ------------------------***/
+.efTitle {
+  background-image: url(img/ef2018/weShare/efbackground.jpg);
+  height: 90vh;
+  max-width: 100%;
+  background-size: cover;
+  padding: 5%;
+}
+
+/***------------------------ robotics.html Portfolio Tab ------------------------***/
+.roboticsTitle {
+  background-image: url(img/robotics/teampic.jpg);
+  height: 90vh;
+  max-width: 100%;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+
+/***------------------------ research.html Portfolio Tab ------------------------***/
+.researchTitle {
+  background-image: url(img/research/researchTitle.jpg);
+  height: 90vh;
+  max-width: 100%;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+.ResearchPaper img {
+  max-width: 100%;
+  height: auto;
+  border-image: 10;
+}
+
+/***------------------------ welding.html Portfolio Tab ------------------------***/
+.welding {
+  background-image: url(img/welding/titlewelding.png);
+  height: 90vh;
+  max-width: 100%;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+
+/***------------------------ bottom half (old stuff) --------------------------------***/
+.portfolio {
+  margin-top: 6%;
+  text-align: center;
+}
+
+.portfolio img{
+  height: 25%;
+  width: 25%;
+}
+
+footer {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: black;
+}

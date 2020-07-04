@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: Andale Mono, monospace;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/*** Navigation Bar ***/
+.navBar {
+  background-color: white;
+  z-index: 2;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* styling the links */
+.navBar a:not(:first-child) {
+  color: black;
+  text-decoration: none;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 17px;
+}
+
+#logo{
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+/* Hover attributes except shLogo (first-child) */
+.navBar a:not(:first-child):hover {
+  background-color: #253144;
+  color: white;
+}
+
+/*** End of Navigation bar ***/
+
+.container {
+  color: black;
+}
+
+.ghpTitle {
+  background-image: url(img/ghp/bubbles.jpg);
+  padding: 5%;
+  color: white;
+  font-size: 3vh;
+  margin: 10%;
+  height: auto;
+
+  min-height: 240px;
+  /* width: 100%; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.PAintro {
+  height:100%;
+  border: 2px solid black;
+  padding: 1%;
+  margin: 5%;
+  text-align: left;
+  text-indent: 30px;
+  overflow:auto;
+}
+
+.PApics {
+  margin: 5%;
+}
+
+/***-------------------------- PA Program Code -----------------------------***/
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 2%;
+  margin: 2%;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+} /***------------------- End of PA Program Code ---------------------------***/
+
+footer {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: black;
+}

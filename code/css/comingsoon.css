@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  background-color: black;
+  font-family: Andale Mono, monospace;
+}
+
+/*** Navigation Bar ***/
+.navBar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* styling the links */
+.navBar a:not(:first-child) {
+  color: white;
+  text-decoration: none;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 17px;
+}
+
+#logo{
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+/* Hover attributes except shLogo (first-child) */
+.navBar a:not(:first-child):hover {
+  background-color: white;
+  color: black;
+} /*** End of Navigation bar ***/
+
+
+/*** Loading ***/
+.loading {
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+}
+
+.loading p {
+  font-size: 140%;
+}
+
+.loading h1 {
+  font-size: 280%;
+}
+
+
+footer {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: black;
+}

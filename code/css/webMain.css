@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  background-color: black;
+  font-family: Andale Mono, monospace;
+}
+
+/*** Navigation Bar ***/
+.navBar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* styling the links */
+.navBar a:not(:first-child) {
+  color: white;
+  text-decoration: none;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 17px;
+}
+
+#logo{
+  height: 64px;
+  width: 64px;
+  float: left;
+  visibility: hidden;
+}
+
+/* Hover attributes except shLogo (first-child) */
+.navBar a:not(:first-child):hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+/*** Main (Background) ***/
+.main {
+}
+
+
+/*** Title ***/
+#mainpic {
+  margin-top: 10%;
+  align-items: center;
+}
+
+#mainpic:hover {
+  opacity: .7;
+}
+
+span {
+  font-weight: bold;
+  color: black;
+}
+
+.title {
+  font-family: Courier;
+  font-size: 50%;
+  color: white;
+}
+
+#name {
+  border-bottom: Solid white;
+  padding: 10px;
+  width: 30%;
+}
+
+/*** social ***/
+.social {
+  margin-top: 13%;
+  text-align: center;
+  color: white;
+}
+
+.social img{
+  height: 8%;
+  width: 8%;
+  background-color: black;
+}
+
+
+footer {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: black;
+}
