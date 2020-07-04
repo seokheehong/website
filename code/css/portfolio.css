@@ -82,80 +82,80 @@ body{
 
 
 #rifleSquare {
-  background-image: url(img/portfolioSquare/rifleSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/rifleSquareBW.jpg);
 }
 
 #rifleSquare:hover {
-  background-image: url(img/portfolioSquare/rifleSquare.jpg);
+  background-image: url(../../img/portfolioSquare/rifleSquare.jpg);
 }
 
 #designSquare {
-  background-image: url(img/portfolioSquare/designSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/designSquareBW.jpg);
 }
 
 #designSquare:hover {
-  background-image: url(img/portfolioSquare/designSquare.jpg);
+  background-image: url(../../img/portfolioSquare/designSquare.jpg);
 }
 
 #musicSquare {
-  background-image: url(img/portfolioSquare/musicSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/musicSquareBW.jpg);
 }
 
 #musicSquare:hover {
-  background-image: url(img/portfolioSquare/musicSquare.jpg);
+  background-image: url(../../img/portfolioSquare/musicSquare.jpg);
 }
 
 #researchSquare {
-  background-image: url(img/portfolioSquare/researchSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/researchSquareBW.jpg);
 }
 
 #researchSquare:hover {
-  background-image: url(img/portfolioSquare/researchSquare.jpg);
+  background-image: url(../../img/portfolioSquare/researchSquare.jpg);
 }
 
 #weldingSquare {
-  background-image: url(img/portfolioSquare/weldingSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/weldingSquareBW.jpg);
 }
 
 #weldingSquare:hover {
-  background-image: url(img/portfolioSquare/weldingSquare.jpg);
+  background-image: url(../../img/portfolioSquare/weldingSquare.jpg);
 }
 
 #roboticsSquare {
-  background-image: url(img/portfolioSquare/roboticsSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/roboticsSquareBW.jpg);
 }
 
 #roboticsSquare:hover {
-  background-image: url(img/portfolioSquare/roboticsSquare.jpg);
+  background-image: url(../../img/portfolioSquare/roboticsSquare.jpg);
 }
 
 #awardSquare {
-  background-image: url(img/portfolioSquare/awardSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/awardSquareBW.jpg);
 }
 
 #awardSquare:hover {
-  background-image: url(img/portfolioSquare/awardSquare.jpg);
+  background-image: url(../../img/portfolioSquare/awardSquare.jpg);
 }
 
 #ghpSquare {
-  background-image: url(img/portfolioSquare/ghpSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/ghpSquareBW.jpg);
 }
 
 #ghpSquare:hover {
-  background-image: url(img/portfolioSquare/ghpSquare.jpg);
+  background-image: url(../../img/portfolioSquare/ghpSquare.jpg);
 }
 
 #efSquare {
-  background-image: url(img/portfolioSquare/efSquareBW.jpg);
+  background-image: url(../../img/portfolioSquare/efSquareBW.jpg);
 }
 
 #efSquare:hover {
-  background-image: url(img/portfolioSquare/efSquare.jpg);
+  background-image: url(../../img/portfolioSquare/efSquare.jpg);
 }
 
 /***------------------------ rifle.html Portfolio Tab ------------------------***/
 .rifle {
-  background-image: url(img/rifle/teampic2.jpeg);
+  background-image: url(../../img/rifle/teampic2.jpeg);
   height: 90vh;
   max-width: 100%;
   background-size: cover;
@@ -165,7 +165,7 @@ body{
 
 /***------------------------ ef2018.html Portfolio Tab ------------------------***/
 .efTitle {
-  background-image: url(img/ef2018/weShare/efbackground.jpg);
+  background-image: url(../../img/ef2018/weShare/efbackground.jpg);
   height: 90vh;
   max-width: 100%;
   background-size: cover;
@@ -174,7 +174,7 @@ body{
 
 /***------------------------ robotics.html Portfolio Tab ------------------------***/
 .roboticsTitle {
-  background-image: url(img/robotics/teampic.jpg);
+  background-image: url(../../img/robotics/teampic.jpg);
   height: 90vh;
   max-width: 100%;
   background-size: cover;
@@ -184,7 +184,7 @@ body{
 
 /***------------------------ research.html Portfolio Tab ------------------------***/
 .researchTitle {
-  background-image: url(img/research/researchTitle.jpg);
+  background-image: url(../../img/research/researchTitle.jpg);
   height: 90vh;
   max-width: 100%;
   background-size: cover;
@@ -199,7 +199,7 @@ body{
 
 /***------------------------ welding.html Portfolio Tab ------------------------***/
 .welding {
-  background-image: url(img/welding/titlewelding.png);
+  background-image: url(../../img/welding/titlewelding.png);
   height: 90vh;
   max-width: 100%;
   background-size: cover;
