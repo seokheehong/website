@@ -48,10 +48,10 @@ body{
 /*** Main (Background) ***/
 .main {
   min-height: 700px;
-  /* width: 100%; */
+  width: 100%;
   background-size: cover;
-  background-image: url("(../../img/contact/profile1.png");
-  background-size: 80%;
+  background-image: url("../../img/mainpic.jpg");
+  /* background-size: 80%; */
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
@@ -68,9 +68,9 @@ body{
   z-index: 7;
 }
 
-.square:hover + .main{
+/* .square:hover + .main{
   background-image: url("(../../img/contact/profile2.png");
-}
+} */
 
 
 /*** intro ***/
