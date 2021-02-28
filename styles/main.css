@@ -1,8 +1,18 @@
+/*** Google Fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+html {
+  overflow: hidden;
+}
+
 body{
   margin: 0;
   background-color: black;
-  font-family: Andale Mono, monospace;
+  color: white;
+  font-family: 'Raleway', monospace;
 }
+
 
 /*** Navigation Bar ***/
 .navBar {
@@ -37,12 +47,10 @@ body{
   color: black;
 }
 
-
-
-/*** Main (Background) ***/
+/* index.html -- Main Home Page */
 .main {
+  color: white;
 }
-
 
 /*** Title ***/
 #mainpic {
@@ -55,24 +63,40 @@ body{
 }
 
 span {
-  font-weight: bold;
-  color: black;
-}
-
-.title {
-  font-family: Courier;
-  font-size: 50%;
+  /* font-weight: bold; */
   color: white;
 }
 
-#name {
-  border-bottom: Solid white;
+/* Typing Effect Cursor */
+.typeText::after {
+  content: "|";
+  animation: none;
+}
+
+.showAnim.typeText::after {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity:0;}
+}
+
+#KRname {
+  /* border-bottom: Solid white;
   padding: 10px;
-  width: 30%;
+  width: 30%; */
+  font-weight: lighter;
+  font-size: 40px;
+  font-family: 'Yeon Sung', cursive;
+}
+
+#ENname {
+  font-weight: lighter;
 }
 
 /*** social ***/
-.social {
+.social
   margin-top: 13%;
   text-align: center;
   color: white;

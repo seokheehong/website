@@ -1,3 +1,7 @@
+# ignore folders
+/img
+/media
+
 # ignore images
 .jpg
 .jpeg
@@ -5,3 +9,5 @@
 
 # ignore videos
 .mp4
+.mp3
+.MOV

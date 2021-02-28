@@ -1,3 +1,6 @@
+/*** Google Fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 html {
   height: 100%;
 }
@@ -5,10 +8,8 @@ html {
 body{
   margin: 0;
   height: 100%;
-  font-family: Andale Mono, monospace;
+  font-family: 'Raleway', monospace;
 }
-
-
 
 /*** Navigation Bar ***/
 .navBar {
@@ -43,35 +44,19 @@ body{
   color: white;
 }
 
-
-
 /*** Main (Background) ***/
 .main {
   min-height: 700px;
   width: 100%;
   background-size: cover;
-  background-image: url("../../img/mainpic.jpg");
-  /* background-size: 80%; */
+  background-image: url("../img/about/profile3.jpg");
+  background-size: 80%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  padding-top: 0;
 }
-
-.square {
-  height: 20%;
-  width: 10%;
-  position: absolute;
-  top: 50%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  z-index: 7;
-}
-
-/* .square:hover + .main{
-  background-image: url("(../../img/contact/profile2.png");
-} */
-
 
 /*** intro ***/
 .intro {
@@ -81,22 +66,4 @@ body{
   border: dashed green;
   padding: 30px;
   width: 80%;
-}
-
-span {
-  font-weight: bold;
-  color: black;
-}
-
-
-/*** social ***/
-.social {
-  margin-top: 6%;
-  text-align: center;
-}
-
-.social img{
-  height: 8%;
-  width: 8%;
-  background-color: white;
 }
